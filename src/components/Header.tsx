@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import Webfont from "webfontloader";
+import { useEffect } from "react";
 
 const Div = styled.div`
   height: 13vh;
@@ -22,6 +24,13 @@ const AdminLi = styled(Li)`
   font-size: 0.8em;
 `;
 const Header = () => {
+  useEffect(() => {
+    Webfont.load({
+      google: {
+        families: ["Montserrat"],
+      },
+    });
+  }, []);
   return (
     <Div>
       <Ul>
