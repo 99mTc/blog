@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "img": "sample1.jpg",
+    "title": "개발자 할까 말까?",
+    "description": "코딩 입문 코스를 소개합니다!"
+  },
+  {
+    "id": 2,
+    "img": "sample2.jpg",
+    "title": "일상 속 메타버스",
+    "description": "Meta Quest Pro에 대해 알아보자"
+  },
+  {
+    "id": 3,
+    "img": "sample3.png",
+    "title": "그림 그려주는 AI",
+    "description": "요즘 AI는 이런 일까지 합니다"
+  },
+  {
+    "id": 4,
+    "img": "sample4.webp",
+    "title": "외향형 개발자, 내향형 개발자",
+    "description": "주의! 미디어 속 이미지와 완전히 다른 직업일 수 있습니다"
+  },
+  {
+    "id": 5,
+    "img": "sample5.webp",
+    "title": "UX UI, 그거 먹는 건가요?",
+    "description": "먹는 건 아니지만 맛있긴 해요"
+  },
+  {
+    "id": 6,
+    "img": "sample6.jpg",
+    "title": "바깥은 위험하단다!",
+    "description": "이 아이들 중 하나를 데려가렴"
+  },
+  {
+    "id": 7,
+    "img": "sample7.webp",
+    "title": "저는 디자인 못하는데요?",
+    "description": "너도 디자인 할 수 있다! Chakra UI"
+  },
+  {
+    "id": 8,
+    "img": "sample8.webp",
+    "title": "에이, 그거 나중에 쓰면 되지",
+    "description": "주춧돌부터 단단히, 기획의 중요성!"
+  },
+  {
+    "id": 9,
+    "img": "sample9.png",
+    "title": "혹시 '사과' 좋아하세요?",
+    "description": "매킨토시 연대기"
+  }
+]

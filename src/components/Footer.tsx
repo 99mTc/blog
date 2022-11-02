@@ -1,18 +1,19 @@
 import styled from "styled-components";
 
 const Div = styled.div`
-  height: 18vh;
-  border-top: 1px solid #ccc;
-  background-color: #eee;
+  height: 30vh;
+  background-color: #101010;
   display: flex;
-  padding: 0 20vw;
-  justify-content: center;
+  padding: 3vh 10vw;
+  color: #aaa;
+  font-family: LeferiPointWhite;
+  font-size: 0.6em;
 `;
 
 const Footer = () => {
   return (
     <Div>
-      <h3>footer입니다</h3>
+      <p>Copyright&nbsp;&copy;&nbsp;2022&nbsp;Technetium&nbsp;&&nbsp;Lycoris</p>
     </Div>
   );
 };

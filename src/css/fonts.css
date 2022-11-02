@@ -1,0 +1,55 @@
+/* 리팩토링 시, 사용처가 없는 폰트 파일은 삭제합시다!! */
+/* [Header]
+  https://fonts.google.com/specimen/Montserrat*/
+@font-face {
+  font-family: Montserrat;
+  src: url("../fonts/MontserratRegular.ttf");
+}
+/*[사용처 미정]
+  Y유니버스체, 기하학적 그래픽 아이콘 40종
+  BI/CI 용도로는 사용을 금지한다.
+  https://www.yspotlight.co.kr/brand/font */
+@font-face {
+  font-family: YUniverse-B;
+  src: url("../fonts/YUniverseB.otf");
+}
+@font-face {
+  font-family: YUniverse-L;
+  src: url("../fonts/YUniverseL.otf");
+}
+/* [Footer]
+  Leferi, sans-serif, Leferi Type Family Name은 일반적인 '제목용', '본문용'이 아닌, 메이크업 용어에 영감을 받아 지어졌습니다. Point Type은 아이덴티티 전달에 초점을 맞춰 극적인 굵기들로 이루어져있으며, Base Type은 커뮤니케이션을 위해 일반적인 굵기로 구성되었습니다. 
+  https://noonnu.cc/font_page/823
+  http://leferitype.com */
+@font-face {
+  font-family: LeferiBaseBold;
+  src: url("../fonts/Leferi/LeferiBaseBold.otf");
+}
+@font-face {
+  font-family: LeferiBaseRegular;
+  src: url("../fonts/Leferi/LeferiBaseRegular.otf");
+}
+@font-face {
+  font-family: LeferiPointBlack;
+  src: url("../fonts/Leferi/LeferiPointBlack.otf");
+}
+@font-face {
+  font-family: LeferiPointBlackOblique;
+  src: url("../fonts/Leferi/LeferiPointBlackOblique.otf");
+}
+@font-face {
+  font-family: LeferiPointSpecial;
+  src: url("../fonts/Leferi/LeferiPointSpecial.otf");
+}
+@font-face {
+  font-family: LeferiPointSpecialItalic;
+  src: url("../fonts/Leferi/LeferiPointSpecialItalic.otf");
+}
+@font-face {
+  font-family: LeferiPointWhite;
+  src: url("../fonts/Leferi/LeferiPointWhite.otf");
+}
+@font-face {
+  font-family: LeferiPointWhiteOblique;
+  src: url("../fonts/Leferi/LeferiPointWhiteOblique.otf");
+}
