@@ -28,6 +28,9 @@ const Li = styled.li`
   font-size: 1.3em;
   font-family: "Montserrat", sans-serif;
 `;
+const Colored = styled.span`
+  color: darkcyan;
+`;
 const Header = () => {
   /* 헤더에 마우스오버 시 로고가 Nav로 전환됨 
     전환 애니메이션이 있으면 좋겠습니다..
@@ -40,23 +43,25 @@ const Header = () => {
     >
       {isHover ? (
         <Ul>
-          {/* 각각의 링크마다, 마우스오버를 하면 색 변화든 두께 변화든 메뉴를 강조하는 효과가 있었으면 좋겠는데
-            어떻게 해야 할지 모르겠군요 ㅋㅋ useState를 일일이 쓸 수는 없고
-            map함수를 쓰면 되려나? 고민해보겠습니다.. 좋은 아이디어가 있다면 도와주세욥 */}
+          {/* 홈 화면으로 돌아가기 */}
           <Li>
-            <Link to="/">Home</Link> {/* 메인화면으로 돌아가는 로고 */}
+            <Link to="/">Home</Link>
           </Li>
+          {/* 소개 페이지 */}
           <Li>
-            <Link to="/about">About</Link> {/* 소개 페이지 */}
+            <Link to="/about">About</Link>
           </Li>
+          {/* IT관련 포스팅 페이지 */}
           <Li>
-            <Link to="/news">News</Link> {/* IT관련 포스팅 페이지 */}
+            <Link to="/news">News</Link>
           </Li>
+          {/* Github 외부링크 연결 */}
           <Li>
-            <Link to="/">Github</Link> {/* Github 외부링크 연결 */}
+            <Link to="/">GitHub</Link>
           </Li>
+          {/* 포트폴리오 페이지 */}
           <Li>
-            <Link to="/works">Works</Link> {/* 포트폴리오 페이지 */}
+            <Link to="/works">Works</Link>
           </Li>
         </Ul>
       ) : (
