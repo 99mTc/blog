@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/blog/static/css/main.f6162fc4.css",
-    "main.js": "/blog/static/js/main.07555b3b.js",
+    "main.css": "/blog/static/css/main.311a351c.css",
+    "main.js": "/blog/static/js/main.1e3a5746.js",
+    "static/media/sample2.jpg": "/blog/static/media/sample2.51eea60d8c165c783d8a.jpg",
+    "static/media/sample1.jpg": "/blog/static/media/sample1.f3e0dbb3fcc9f31ab5fc.jpg",
     "static/media/LeferiPointSpecialItalic.otf": "/blog/static/media/LeferiPointSpecialItalic.029593a8778fd881fa88.otf",
     "static/media/LeferiPointSpecial.otf": "/blog/static/media/LeferiPointSpecial.2e59447c5a3c4fc6537f.otf",
     "static/media/LeferiPointWhiteOblique.otf": "/blog/static/media/LeferiPointWhiteOblique.6463127d60b094ad91fd.otf",
@@ -10,15 +12,22 @@
     "static/media/LeferiPointBlack.otf": "/blog/static/media/LeferiPointBlack.555796e1912f49979ea4.otf",
     "static/media/LeferiBaseBold.otf": "/blog/static/media/LeferiBaseBold.dae4a1dfd549e70633c2.otf",
     "static/media/LeferiBaseRegular.otf": "/blog/static/media/LeferiBaseRegular.64e2a58a161f5807e14f.otf",
+    "static/media/sample3.png": "/blog/static/media/sample3.e5f48ce0cb2bdc902ab6.png",
+    "static/media/sample9.png": "/blog/static/media/sample9.3103dcaa13a7c864db67.png",
     "static/media/YUniverseB.otf": "/blog/static/media/YUniverseB.b7fac7733faf3fb70bc7.otf",
     "static/media/YUniverseL.otf": "/blog/static/media/YUniverseL.e178aef1a291a82dac14.otf",
     "static/media/MontserratRegular.ttf": "/blog/static/media/MontserratRegular.ceb11275ab638627a643.ttf",
+    "static/media/sample8.webp": "/blog/static/media/sample8.97725fcd928c5b8e991c.webp",
+    "static/media/sample4.webp": "/blog/static/media/sample4.98264d17b10eb44d4c22.webp",
+    "static/media/sample5.webp": "/blog/static/media/sample5.fcf2826d5e3070a79e54.webp",
+    "static/media/sample6.jpg": "/blog/static/media/sample6.e3c37b517b78f28911d2.jpg",
+    "static/media/sample7.webp": "/blog/static/media/sample7.8e9f222095e075a47ec9.webp",
     "index.html": "/blog/index.html",
-    "main.f6162fc4.css.map": "/blog/static/css/main.f6162fc4.css.map",
-    "main.07555b3b.js.map": "/blog/static/js/main.07555b3b.js.map"
+    "main.311a351c.css.map": "/blog/static/css/main.311a351c.css.map",
+    "main.1e3a5746.js.map": "/blog/static/js/main.1e3a5746.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6162fc4.css",
-    "static/js/main.07555b3b.js"
+    "static/css/main.311a351c.css",
+    "static/js/main.1e3a5746.js"
   ]
 }
