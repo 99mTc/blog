@@ -27,10 +27,13 @@ const Li = styled.li`
   margin: 0 0.95em;
   font-size: 1.3em;
   font-family: "Montserrat", sans-serif;
+  &:hover {
+    color: darkcyan;
+  }
 `;
-const Colored = styled.span`
-  color: darkcyan;
-`;
+// const Colored = styled.span`
+//   color: darkcyan;
+// `;
 const Header = () => {
   /* 헤더에 마우스오버 시 로고가 Nav로 전환됨 
     전환 애니메이션이 있으면 좋겠습니다..
@@ -57,11 +60,11 @@ const Header = () => {
           </Li>
           {/* Github 외부링크 연결 */}
           <Li>
-            <Link to="/">GitHub</Link>
+            <Link to="/works">Works</Link>
           </Li>
           {/* 포트폴리오 페이지 */}
           <Li>
-            <Link to="/works">Works</Link>
+            <Link to="/guest">Guest</Link>
           </Li>
         </Ul>
       ) : (

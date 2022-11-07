@@ -1,8 +1,8 @@
 import Container from "../components/Container";
-import imgdata from "../assets/imgdata.json";
-import { images } from "../assets/img/news/images";
+import imgdata from "../assets/config/imgdata.json";
+import { images } from "../assets/img/news/newsImg";
 import styled from "styled-components";
-import { ScrollMenu } from "react-horizontal-scrolling-menu";
+// import { ScrollMenu } from "react-horizontal-scrolling-menu";
 const Ul = styled.ul`
   width: 100%;
   display: flex;
@@ -56,7 +56,7 @@ const P = styled.p`
 //썸네일+제목+설명 1개씩. map함수를 이용하여 여러 개 생성함
 //최신 기사부터 보려면 이 index의 역순으로 표시해야 하는데.. 어떻게 뒤집는지모르겠다 방법을 알아보겠다
 const Article = imgdata.map((item, index) => {
-  const imgName = `${item.img.split(".")[0]}`;
+  const imgName = item.img.split(".")[0];
   return (
     <li key={index}>
       <Div>
